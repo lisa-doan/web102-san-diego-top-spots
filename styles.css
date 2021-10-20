@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  text-align: center;
+  padding: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table {
+  border-collapse: collapse;
+  text-align: left;
+}
+
+td {
+  padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2;}
+
+tr:hover {background-color: #f2cc8f;}
+
+th {
+  padding: 12px;
+  background-color: #81b29a;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:visited,
+a:hover {
+  color: #e07a5f;
+  font-weight: bold;
+}
